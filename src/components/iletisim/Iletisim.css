@@ -16,6 +16,18 @@
     margin-bottom: 2rem !important;
 }
 
+.contactIcons{
+    margin: auto !important;
+    justify-content: center !important;
+    display: block;
+    width: 12rem;
+    height: 12rem;
+}
+.contactText{
+    text-align: center !important;
+    font-size: medium;
+}
+
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 1370px) {
@@ -61,6 +73,11 @@
         background-color: #DCDCDC !important;
         background-image: none !important;
 
+    }
+    .contactIcons{
+        
+        width: 9rem;
+        height: 9rem;
     }
 
 

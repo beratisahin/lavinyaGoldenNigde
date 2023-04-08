@@ -18,10 +18,6 @@ import KaliciMakyaj from "./components/hizmetler/KaliciMakyaj";
 import YosunPeeling from "./components/hizmetler/YosunPeeling";
 
 import Cihazlar from "./components/hizmetler/Urunler";
-import Blog from "./components/blog/Blog";
-import Fotograf from "./components/galeri/FotografVideo";
-import Video from "./components/galeri/FotografVideo";
-
 function App() {
   return (
     <Router>
@@ -48,15 +44,10 @@ function App() {
 
 
             <Route exact path="/cihazlarimiz" component={Cihazlar} />
-
-            <Route exact path="/blog" component={Blog} />
-            <Route exact path="/fotograflar" component={Fotograf} />
-            <Route exact path="/videolar" component={Video} />
-
             <Route path="/iletisim" component={Iletisim} />
           </Switch>
 
-          <hr className="footerHr" />
+         
           <div className="col-12">
             <Foooter />
           </div>

@@ -60,6 +60,11 @@ function Hakkimizda() {
             müşterimize hizmet verebilmekteyiz.
           </p>
         </div>
+       
+               
+                <p className="instaLink" style={{textAlign:"center",color:"gray"}}>Detaylı güncel fotoğraf ve videolar için <a className="instagram"  href="https://www.instagram.com/lavinyagoldennigde/" target="_blank">Niğde Lavinya Golden Güzellik Merkezi</a> instagram profilimizi ziyaret edebilirsiniz. </p>
+               
+           
       </div>
     </div>
   );

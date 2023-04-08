@@ -2,10 +2,6 @@ import "./Foooter.css";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import EmailIcon from "@material-ui/icons/Email";
-import HomeIcon from "@material-ui/icons/Home";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import PhoneIcon from "@material-ui/icons/Phone";
@@ -30,194 +26,7 @@ export default class Foooter extends Component {
           class="row p-4"
           style={{ backgroundColor: "white", height: "auto" }}
         >
-          <div
-            className="col-lg-4 col-md-6 col-sm-6 col-12"
-            style={{ fontSize: "15px", marginBottom: "2rem" }}
-          >
-            <a
-              href="/"
-              title="Niğde Lavinya Golden Güzellik Merkezi"
-              alt="Niğde Lavinya Golden Güzellik Merkezi"
-            >
-              <img
-                src={MainLogo2}
-                alt="logo"
-                style={{
-                  width: "24rem",
-                  height: "12rem",
-                  display: "block",
-                  align: "center",
-                  margin: "auto",
-                }}
-              ></img>
-            </a>
-            <p
-              className="mt-4"
-              style={{
-                fontSize: "14px",
-                fontFamily: "sans-serif",
-                textAlign: "justify",
-                textIndent: "1px",
-              }}
-            >
-              {" "}
-              Niğde Lavinya Golden Güzellik Merkezi olarak alanında uzman
-              personellerimizle siz değerli danışanlarımıza lazer epilasyon,
-              kavitasyon, bölgesel incelme, slim zayıflama, kirpik lifting,
-              yosun peeling, hydrafacial cilt bakımı, kalıcı makyaj vb alanlarında
-              hijyenik ortamda en iyi şekilde hizmet vermek temel önceliğimizdir.
-              Son teknoloji cihazlarımızla bayanlar ve baylar için hizmetlerimiz
-              bulunmaktadır.
-            </p>
-          </div>
-
-          <div
-            className="col-lg-4 col-md-6 col-sm-6 col-12"
-            style={{ fontSize: "12px", marginBottom: "2rem" }}
-          >
-            <b style={{ color: "#E59026", fontSize: "18px" }}>
-              Çalışma Takvimi
-            </b>
-            <hr />
-            <table class="table table-striped">
-              <tbody>
-                <tr style={{ height: "2px" }}>
-                  <td>Pazartesi</td>
-                  <td>09:00 - 19:00</td>
-                </tr>
-                <tr>
-                  <td>Salı</td>
-                  <td>09:00 - 19:00</td>
-                </tr>
-                <tr>
-                  <td>Çarşamba</td>
-                  <td>09:00 - 19:00</td>
-                </tr>
-                <tr>
-                  <td>Perşembe</td>
-                  <td>09:00 - 19:00</td>
-                </tr>
-                <tr>
-                  <td>Cuma</td>
-                  <td>09:00 - 19:00</td>
-                </tr>
-                <tr>
-                  <td>Cumartesi</td>
-                  <td>09:00 - 19:00</td>
-                </tr>
-                <tr>
-                  <td>Pazar</td>
-                  <td>09:00 - 19:00</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <p style={{ color: "red", fontSize: "13px" }}></p>
-          </div>
-
-          <div
-            className="col-lg-4 col-md-6 col-sm-6 col-12"
-            style={{ fontSize: "15px", marginBottom: "2rem" }}
-          >
-            <p
-              style={{ color: "#E59026", fontWeight: "bold", fontSize: "18px" }}
-            >
-              Niğde Lavinya Golden Güzellik Merkezi
-            </p>
-            <hr />
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ float: "left" }}
-            >
-              <FacebookIcon className="icon" style={{ fontSize: "24px" }} />
-            </a>
-            <a
-              href="https://www.instagram.com/lavinyagoldennigde/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ float: "left", textIndent: "10px" }}
-            >
-              <InstagramIcon
-                className="icon"
-                style={{ fontSize: "24px", color: "purple" }}
-              />
-            </a>
-            <a
-              href="https://wa.me/+905012560051" 
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ float: "left", textIndent: "10px" }}
-            >
-              <WhatsAppIcon
-                className="icon"
-                style={{ fontSize: "24px", color: "lightgreen" }}
-              />
-            </a>
-            <a
-              href="tel: +905012560051"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ float: "left", textIndent: "10px" }}
-            >
-              <SettingsPhoneIcon
-                className="icon"
-                style={{ fontSize: "24px" }}
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ float: "left", textIndent: "10px", color: "red" }}
-            >
-              <YouTubeIcon className="icon" style={{ fontSize: "24px" }} />
-            </a>
-            <br />
-            <br />
-            <p style={{ fontSize: "14px", textAlign: "left" }}>
-              {" "}
-              <a href="mailto:lavinya.golden.Niğde@gmail.com">
-                <EmailIcon style={{ fontSize: "24px" }} />
-              </a>
-              &nbsp; lavinya.golden.nigde@gmail.com
-            </p>
-            <p style={{ fontSize: "14px", textAlign: "left" }}>
-              {" "}
-              <a
-                href="tel: +905012560051"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <SettingsPhoneIcon style={{ fontSize: "24px" }} />
-              </a>
-              &nbsp; 0501 256 00 51 <FontAwesomeIcon icon="coffee" size="lg" />
-            </p>
-            <p style={{ fontSize: "14px", textAlign: "left" }}>
-              <a
-                href="+https://goo.gl/maps/5jSu6Q26C5mcw39S8"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <HomeIcon style={{ fontSize: "24px" }} />
-              </a>
-              &nbsp; Aşağı Kayabaşı, Kültür Plaza, Dr. Sami Yağız Cd. No:32 D:19, 51200 Niğde Merkez/Niğde
-              
-            </p>
-
-            <p style={{ fontSize: "14px", textAlign: "left" }}>
-              <a
-                href="+https://goo.gl/maps/5jSu6Q26C5mcw39S8"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <LocationOnIcon style={{ fontSize: "24px" }} />
-              </a>
-              &nbsp; 
-              <b>Merkez / Niğde</b>{" "}
-            </p>
-          </div>
+         
 
           <div className="col-12">
             <hr />
@@ -261,7 +70,7 @@ export default class Foooter extends Component {
 
           <div className="roof-phone">
             <a
-              href="tel: +905012560051" 
+              href="tel: +905012560051"
               className="phone_float"
               target="_blank"
               rel="noopener noreferrer"

@@ -5,6 +5,7 @@
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: auto;
 }
 
 .card-baslik{
@@ -14,7 +15,7 @@
 }
 
 .card-neden{
-    font-size: 14px !important;
+    font-size: small !important;
     margin-bottom: 2rem !important;
     
 }

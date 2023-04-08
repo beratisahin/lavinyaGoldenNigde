@@ -155,7 +155,7 @@ header {
   header {
 /*     position: relative; */
     padding: 1em 1.5em ;
-    height: 12rem;
+    height: 11rem;
     
   }
   .menu {
@@ -165,7 +165,7 @@ header {
     top: 10rem !important;
     left: 0;
     right: 0;
-    height: 50vh;
+    height: 40vh;
 
     opacity: 0;
     transform: scaleY(0);

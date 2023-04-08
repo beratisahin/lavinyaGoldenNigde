@@ -101,32 +101,7 @@ export default class Navbar extends Component {
                 &nbsp;Cihazlarımız
               </a>
             </li>
-            <li class="has-dropdown">
-              <a href="#" class="menu-link" style={{ fontSize: "medium" }}>
-                <CameraAltIcon style={{ fontSize: "medium" }} />
-                &nbsp;Galeri &nbsp;
-                <span class="arrow"></span>
-              </a>
-              <ul class="submenu">
-                <li>
-                  <a href="/fotograflar" class="menu-link">
-                    Fotoğraf
-                  </a>
-                </li>
-                <li>
-                  <a href="/videolar" class="menu-link">
-                    Video
-                  </a>
-                </li>
-              </ul>
-            </li>
 
-            <li>
-              <a href="/blog" class="menu-link" style={{ fontSize: "medium" }}>
-                <ContactlessIcon style={{ fontSize: "medium" }} />
-                &nbsp;Blog
-              </a>
-            </li>
             <li>
               <a
                 href="/iletisim"
