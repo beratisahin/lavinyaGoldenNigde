@@ -73,7 +73,7 @@ function Iletisim() {
       </div>
       <div class="col-lg-2s col-md-2 col-sm-12 col-12 p-5">
         <a
-          href="https://www.facebook.com/Ni%C4%9Fde-Lavinya-Golden-G%C3%BCzellik-Salonu-112133595172620"
+          href="https://www.facebook.com/lavinyanigde?mibextid=ZbWKwL"
           target="_blank"
         >
           <img src={i6} className="contactIcons" title="Facebook "></img>
