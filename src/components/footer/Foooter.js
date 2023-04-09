@@ -59,7 +59,7 @@ export default class Foooter extends Component {
 
           <div className="roof-location">
             <a
-              href="+https://goo.gl/maps/5jSu6Q26C5mcw39S8"
+              href="https://goo.gl/maps/5jSu6Q26C5mcw39S8"
               className="location_float"
               target="_blank"
               rel="noopener noreferrer"
