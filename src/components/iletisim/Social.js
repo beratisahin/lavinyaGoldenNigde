@@ -15,7 +15,7 @@ import i5 from "./5.webp";
 import i6 from "./6.webp";
 
 function Iletisim() {
-  useDocumentTitle("İletişim - Niğde Lavinya Golden Güzellik Merkezi ");
+  useDocumentTitle("Niğde Lazer Epilasyon - Niğde Lavinya Golden Güzellik Merkezi");
   return (
     <div className="row">
       <div class="col-lg-2s col-md-2 col-sm-12 col-12 p-5">
