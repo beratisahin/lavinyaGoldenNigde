@@ -29,8 +29,7 @@ function Iletisim() {
         <p className="contactText">
           <b>Adres:</b>
           <br />
-          Aşağı Kayabaşı, Kültür Plaza, Dr. Sami Yağız Cd. No:32 D:19, 51200
-          Niğde Merkez/Niğde
+          Selçuk Mah. Tuncer Sok. No:3 51100  <strong>Merkez / Niğde</strong>
         </p>
       </div>
       <div class="col-lg-2s col-md-2 col-sm-12 col-12 p-5">
