@@ -29,7 +29,7 @@ function Iletisim() {
         <p className="contactText">
           <b>Adres:</b>
           <br />
-          Selçuk Mah. Tuncer Sok. No:3 51100  <strong>Merkez / Niğde</strong>
+          Selçuk Mah. Tuncer Sok. No:5 51100  <strong>Merkez / Niğde</strong>
         </p>
       </div>
       <div class="col-lg-2s col-md-2 col-sm-12 col-12 p-5">

@@ -35,7 +35,7 @@ function Iletisim() {
               className="contactIcons"
               title="Epilasyon Konum"
             ></img>
-            <p className="contactText"><b>Adres:</b><br/>Selçuk Mah. Tuncer Sok. No:3 51100, <strong>Merkez / Niğde</strong></p>
+            <p className="contactText"><b>Adres:</b><br/>Selçuk Mah. Tuncer Sok. No:5 51100, <strong>Merkez / Niğde</strong></p>
           </div>
           <div class="col-lg-6s col-md-6 col-sm-12 col-12">
             <img
